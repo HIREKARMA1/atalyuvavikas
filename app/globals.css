@@ -97,9 +97,16 @@
     @apply bg-background text-foreground;
   }
   
-  /* Smooth scrolling */
+  /* Smooth anchor scrolling with fixed-header offset */
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 8.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 

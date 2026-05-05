@@ -14,7 +14,7 @@ const quickLinks = [
 
 export function Footer() {
   const { t } = useLanguage()
-  const footerLogoUrl = config.program.images.footerLogo || config.program.images.logo
+  // const footerLogoUrl = config.program.images.footerLogo || config.program.images.logo
   const poweredBy = config.program.poweredBy
 
   return (
@@ -24,18 +24,18 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-4 mb-4">
-              {footerLogoUrl !== 'PLACEHOLDER_S3_URL_LOGO' && (
+              {/* {footerLogoUrl !== 'PLACEHOLDER_S3_URL_LOGO' && (
                 <img
                   src={footerLogoUrl}
                   alt="Logo"
                   className="h-14 w-auto shrink-0"
                 />
-              )}
+              )} */}
               <div className="leading-tight">
                 <h3 className="text-lg md:text-2xl font-semibold">{t.header.title}</h3>
-                <p className="text-sm md:text-lg font-semibold text-background/80">
+                {/* <p className="text-sm md:text-lg font-semibold text-background/80">
                   {t.footer.governmentOf}
-                </p>
+                </p> */}
               </div>
             </div>
             <p className="text-background/70 text-sm mb-4 max-w-md">
