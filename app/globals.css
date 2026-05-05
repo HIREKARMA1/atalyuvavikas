@@ -1,0 +1,123 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Government Orange Theme */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.15 0 0);
+  
+  /* Primary - Government Orange */
+  --primary: oklch(0.65 0.2 45);
+  --primary-foreground: oklch(1 0 0);
+  
+  /* Secondary - Saffron Light */
+  --secondary: oklch(0.97 0.03 80);
+  --secondary-foreground: oklch(0.15 0 0);
+  
+  /* Card */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0 0);
+  
+  /* Popover */
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0 0);
+  
+  /* Muted */
+  --muted: oklch(0.96 0 0);
+  --muted-foreground: oklch(0.45 0 0);
+  
+  /* Accent - Light Saffron */
+  --accent: oklch(0.95 0.05 70);
+  --accent-foreground: oklch(0.15 0 0);
+  
+  /* Destructive */
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(1 0 0);
+  
+  /* Border & Input */
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
+  --ring: oklch(0.65 0.2 45);
+  
+  /* Custom Government Colors */
+  --govt-orange: #FF6B00;
+  --govt-orange-light: #FF8533;
+  --govt-orange-dark: #CC5500;
+  --saffron: #FFF5E6;
+  --saffron-light: #FFFAF2;
+  --saffron-dark: #FFE4C4;
+  
+  /* No border radius for government professional look */
+  --radius: 0px;
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'Noto Sans Oriya', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  
+  /* Government custom colors */
+  --color-govt-orange: var(--govt-orange);
+  --color-govt-orange-light: var(--govt-orange-light);
+  --color-govt-orange-dark: var(--govt-orange-dark);
+  --color-saffron: var(--saffron);
+  --color-saffron-light: var(--saffron-light);
+  --color-saffron-dark: var(--saffron-dark);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-20 px-4 md:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .govt-gradient {
+    background: linear-gradient(135deg, var(--govt-orange) 0%, var(--govt-orange-light) 100%);
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "common": {
+    "registerNow": "Register Now",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "contactUs": "Contact Us",
+    "phone": "Phone",
+    "location": "Location",
+    "email": "Email"
+  },
+  "header": {
+    "title": "Atal Yuva Vikas 2026",
+    "government": "Government of Odisha",
+    "home": "Home",
+    "about": "About",
+    "centers": "Centers",
+    "courses": "Courses",
+    "register": "Register",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Atal Yuva Vikas 2026",
+    "subtitle": "15-Day Summer Talent Residential Program",
+    "description": "A Government-supported initiative for skill development, discipline, and personality building for the youth of Odisha.",
+    "cta": "Register Now"
+  },
+  "about": {
+    "title": "About the Program",
+    "subtitle": "Empowering Youth Through Skill Development",
+    "description": "Atal Yuva Vikas 2026 is a comprehensive 15-day residential training program designed to nurture talent and build character among students. This government-backed initiative focuses on holistic development through various skill-building courses.",
+    "features": {
+      "residential": {
+        "title": "Residential Program",
+        "description": "15 days of immersive boarding experience with expert guidance"
+      },
+      "skills": {
+        "title": "Skill Development",
+        "description": "Learn 9 essential skills from trained professionals"
+      },
+      "government": {
+        "title": "Government Initiative",
+        "description": "Official program supported by the Government of Odisha"
+      },
+      "affordable": {
+        "title": "Affordable Fee",
+        "description": "Only Rs. 11 registration fee for complete program access"
+      }
+    }
+  },
+  "centers": {
+    "title": "Training Centers",
+    "subtitle": "Three Premier Locations Across Ganjam District",
+    "selectCenter": "Select this center during registration"
+  },
+  "courses": {
+    "title": "Courses Offered",
+    "subtitle": "9 Comprehensive Skill Development Courses",
+    "duration": "Duration",
+    "days": "days"
+  },
+  "registration": {
+    "title": "Register Now",
+    "subtitle": "Join the Summer Talent Program",
+    "scanQR": "Scan QR Code to Register",
+    "orClick": "Or click the button below",
+    "fee": "Registration Fee",
+    "feeAmount": "Rs. 11 Only",
+    "mode": "Mode",
+    "modeValue": "Online (Google Form)",
+    "seats": "Seats",
+    "seatsValue": "Limited Seats Available",
+    "deadline": "Registration Deadline",
+    "deadlineValue": "Until seats are filled",
+    "instructions": {
+      "title": "Registration Instructions",
+      "step1": "Scan the QR code or click the Register button",
+      "step2": "Fill in all required details in the Google Form",
+      "step3": "Select your preferred training center",
+      "step4": "Complete the payment of Rs. 11",
+      "step5": "Wait for confirmation via SMS/Call"
+    }
+  },
+  "minister": {
+    "title": "Message from Leadership",
+    "subtitle": "Insights and Vision for Odisha's Youth",
+    "quote": "This initiative aims to transform the youth of Odisha by providing them with essential life skills and values. Through Atal Yuva Vikas 2026, we are committed to building a stronger, more capable generation that will lead our state towards progress.",
+    "designation": "Honorable Minister"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch for Any Queries",
+    "address": {
+      "title": "Address",
+      "value": "Kamalapur, Ganjam, Odisha"
+    },
+    "phone": {
+      "title": "Phone",
+      "value": "+91 9110734279"
+    },
+    "timing": {
+      "title": "Office Hours",
+      "value": "9:00 AM - 6:00 PM (Mon - Sat)"
+    },
+    "whatsapp": "Message on WhatsApp"
+  },
+  "footer": {
+    "copyright": "© 2026 Atal Yuva Vikas. All Rights Reserved.",
+    "governmentOf": "Government of Odisha Initiative",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "poweredBy": "Powered by"
+  }
+}

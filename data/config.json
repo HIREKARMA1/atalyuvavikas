@@ -1,0 +1,43 @@
+{
+  "program": {
+    "name": "Atal Yuva Vikas 2026",
+    "tagline": "Summer Talent Course",
+    "duration": "15 Days",
+    "type": "Residential (Boarding Program)",
+    "registrationFee": 11,
+    "currency": "INR",
+    "contact": {
+      "phone": "+91 9110734279",
+      "whatsapp": "919110734279",
+      "location": "Kamalapur, Ganjam, Odisha"
+    },
+    "images": {
+      "logo": "https://atalyuvavikas.s3.us-east-1.amazonaws.com/Home/logo-odisha.png",
+      "navbarLogo": "https://atalyuvavikas.s3.us-east-1.amazonaws.com/Home/dark-logo-odisha.png",
+      "footerLogo": "https://atalyuvavikas.s3.us-east-1.amazonaws.com/Home/logo-odisha.png",
+      "heroBanner": "PLACEHOLDER_S3_URL_HERO",
+      "ministerPhoto": "https://atalyuvavikas.s3.us-east-1.amazonaws.com/Home/Bibhuti_Bhusan_Jena.png"
+    },
+    "socialLinks": {
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "youtube": ""
+    },
+    "poweredBy": {
+      "name": "HireKarma Private Limited",
+      "url": "https://hirekarma.in/"
+    }
+  },
+  "minister": {
+    "name": {
+      "en": "Shri Bibhuti Bhusan Jena",
+      "od": "ଶ୍ରୀ ବିଭୂତି ଭୂଷଣ ଜେନା"
+    },
+    "designation": {
+      "en": "Government of Odisha",
+      "od": "ଓଡ଼ିଶା ସରକାର"
+    },
+    "photo": "https://atalyuvavikas.s3.us-east-1.amazonaws.com/Home/Bibhuti_Bhusan_Jena.png"
+  }
+}

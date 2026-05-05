@@ -1,0 +1,7 @@
+export { HeroSection } from './hero-section'
+export { AboutSection } from './about-section'
+export { CentersSection } from './centers-section'
+export { CoursesSection } from './courses-section'
+export { MinisterSection } from './minister-section'
+export { RegistrationSection } from './registration-section'
+export { ContactSection } from './contact-section'

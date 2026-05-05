@@ -1,0 +1,121 @@
+{
+  "courses": [
+    {
+      "id": "spoken-english",
+      "name": {
+        "en": "Spoken English",
+        "od": "କଥିତ ଇଂରାଜୀ"
+      },
+      "description": {
+        "en": "Improve communication skills through practical English speaking sessions",
+        "od": "ବ୍ୟବହାରିକ ଇଂରାଜୀ କଥନ ସେସନ ମାଧ୍ୟମରେ ଯୋଗାଯୋଗ ଦକ୍ଷତା ଉନ୍ନତ କରନ୍ତୁ"
+      },
+      "icon": "MessageCircle",
+      "duration": 15
+    },
+    {
+      "id": "computer",
+      "name": {
+        "en": "Computer Classes",
+        "od": "କମ୍ପ୍ୟୁଟର କ୍ଲାସ"
+      },
+      "description": {
+        "en": "Basic computer operations, MS Office, and digital literacy",
+        "od": "ମୌଳିକ କମ୍ପ୍ୟୁଟର ପରିଚାଳନା, ଏମଏସ୍ ଅଫିସ୍, ଏବଂ ଡିଜିଟାଲ ସାକ୍ଷରତା"
+      },
+      "icon": "Monitor",
+      "duration": 15
+    },
+    {
+      "id": "yoga",
+      "name": {
+        "en": "Yoga & Meditation",
+        "od": "ଯୋଗ ଏବଂ ଧ୍ୟାନ"
+      },
+      "description": {
+        "en": "Physical and mental wellness through traditional yoga practices",
+        "od": "ପାରମ୍ପାରିକ ଯୋଗ ଅଭ୍ୟାସ ମାଧ୍ୟମରେ ଶାରୀରିକ ଏବଂ ମାନସିକ ସୁସ୍ଥତା"
+      },
+      "icon": "Heart",
+      "duration": 15
+    },
+    {
+      "id": "sanskrit",
+      "name": {
+        "en": "Sanskrit Slokas",
+        "od": "ସଂସ୍କୃତ ଶ୍ଳୋକ"
+      },
+      "description": {
+        "en": "Learn ancient Sanskrit verses and their meanings",
+        "od": "ପ୍ରାଚୀନ ସଂସ୍କୃତ ଶ୍ଳୋକ ଏବଂ ସେମାନଙ୍କ ଅର୍ଥ ଶିଖନ୍ତୁ"
+      },
+      "icon": "BookOpen",
+      "duration": 15
+    },
+    {
+      "id": "karate",
+      "name": {
+        "en": "Karate",
+        "od": "କରାଟେ"
+      },
+      "description": {
+        "en": "Self-defense techniques and physical fitness training",
+        "od": "ଆତ୍ମରକ୍ଷା କୌଶଳ ଏବଂ ଶାରୀରିକ ଫିଟନେସ୍ ତାଲିମ"
+      },
+      "icon": "Shield",
+      "duration": 15
+    },
+    {
+      "id": "dance",
+      "name": {
+        "en": "Classical Dance",
+        "od": "ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟ"
+      },
+      "description": {
+        "en": "Traditional Indian classical dance forms and expressions",
+        "od": "ପାରମ୍ପାରିକ ଭାରତୀୟ ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟ ଶୈଳୀ ଏବଂ ଅଭିବ୍ୟକ୍ତି"
+      },
+      "icon": "Music",
+      "duration": 15
+    },
+    {
+      "id": "singing",
+      "name": {
+        "en": "Singing",
+        "od": "ଗୀତ"
+      },
+      "description": {
+        "en": "Vocal training and music appreciation",
+        "od": "ସ୍ୱର ତାଲିମ ଏବଂ ସଙ୍ଗୀତ ପ୍ରଶଂସା"
+      },
+      "icon": "Mic",
+      "duration": 15
+    },
+    {
+      "id": "first-aid",
+      "name": {
+        "en": "First Aid & Common Medication",
+        "od": "ପ୍ରାଥମିକ ଚିକିତ୍ସା ଏବଂ ସାଧାରଣ ଔଷଧ"
+      },
+      "description": {
+        "en": "Emergency response and basic medical care knowledge",
+        "od": "ଜରୁରୀକାଳୀନ ପ୍ରତିକ୍ରିୟା ଏବଂ ମୌଳିକ ଚିକିତ୍ସା ଯତ୍ନ ଜ୍ଞାନ"
+      },
+      "icon": "Cross",
+      "duration": 15
+    },
+    {
+      "id": "cpr",
+      "name": {
+        "en": "CPR Training",
+        "od": "ସିପିଆର ତାଲିମ"
+      },
+      "description": {
+        "en": "Life-saving cardiopulmonary resuscitation techniques",
+        "od": "ଜୀବନ ରକ୍ଷାକାରୀ କାର୍ଡିଓପଲମୋନାରୀ ରିସସିଟେସନ୍ କୌଶଳ"
+      },
+      "icon": "HeartPulse",
+      "duration": 15
+    }
+  ]
+}

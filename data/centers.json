@@ -1,0 +1,55 @@
+{
+  "centers": [
+    {
+      "id": "konisi",
+      "name": {
+        "en": "Swami Vivekananda Kendra Konisi School",
+        "od": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦ କେନ୍ଦ୍ର କୋନିସି ବିଦ୍ୟାଳୟ"
+      },
+      "location": {
+        "en": "Konisi, Ganjam, Odisha",
+        "od": "କୋନିସି, ଗଞ୍ଜାମ, ଓଡ଼ିଶା"
+      },
+      "capacity": 100,
+      "facilities": {
+        "en": ["Hostel", "Playground", "Computer Lab", "Library"],
+        "od": ["ଛାତ୍ରାବାସ", "ଖେଳ ପଡିଆ", "କମ୍ପ୍ୟୁଟର ଲ୍ୟାବ", "ପୁସ୍ତକାଳୟ"]
+      },
+      "image": "PLACEHOLDER_S3_URL_CENTER_1"
+    },
+    {
+      "id": "nimakhandi",
+      "name": {
+        "en": "Maharshi Dayananda Kendra Nimakhandi High School",
+        "od": "ମହର୍ଷି ଦୟାନନ୍ଦ କେନ୍ଦ୍ର ନିମଖଣ୍ଡି ଉଚ୍ଚ ବିଦ୍ୟାଳୟ"
+      },
+      "location": {
+        "en": "Nimakhandi, Ganjam, Odisha",
+        "od": "ନିମଖଣ୍ଡି, ଗଞ୍ଜାମ, ଓଡ଼ିଶା"
+      },
+      "capacity": 80,
+      "facilities": {
+        "en": ["Hostel", "Sports Ground", "Science Lab", "Auditorium"],
+        "od": ["ଛାତ୍ରାବାସ", "କ୍ରୀଡା ପଡିଆ", "ବିଜ୍ଞାନ ଲ୍ୟାବ", "ଅଡିଟୋରିୟମ"]
+      },
+      "image": "PLACEHOLDER_S3_URL_CENTER_2"
+    },
+    {
+      "id": "kamalapur",
+      "name": {
+        "en": "Paramhansa Yogananda Kendra Kamalapur High School",
+        "od": "ପରମହଂସ ଯୋଗାନନ୍ଦ କେନ୍ଦ୍ର କମଳାପୁର ଉଚ୍ଚ ବିଦ୍ୟାଳୟ"
+      },
+      "location": {
+        "en": "Kamalapur, Ganjam, Odisha",
+        "od": "କମଳାପୁର, ଗଞ୍ଜାମ, ଓଡ଼ିଶା"
+      },
+      "capacity": 120,
+      "facilities": {
+        "en": ["Hostel", "Yoga Hall", "Meditation Center", "Library"],
+        "od": ["ଛାତ୍ରାବାସ", "ଯୋଗ ହଲ୍", "ଧ୍ୟାନ କେନ୍ଦ୍ର", "ପୁସ୍ତକାଳୟ"]
+      },
+      "image": "PLACEHOLDER_S3_URL_CENTER_3"
+    }
+  ]
+}
