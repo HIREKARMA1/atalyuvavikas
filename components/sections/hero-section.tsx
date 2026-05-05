@@ -31,9 +31,9 @@ export function HeroSection() {
           <div className="text-center lg:text-left">
             {/* Government Badge */}
             <div className="inline-flex items-center gap-2 bg-background/80 px-4 py-2 mb-6">
-              <span className="text-sm font-medium text-muted-foreground">
+              {/* <span className="text-sm font-medium text-muted-foreground">
                 {t.footer.governmentOf}
-              </span>
+              </span> */}
             </div>
 
             {/* Main Title */}

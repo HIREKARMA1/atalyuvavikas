@@ -18,7 +18,7 @@ const navItems = [
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { t, language, setLanguage } = useLanguage()
-  const navbarLogoUrl = config.program.images.logo
+  // const navbarLogoUrl = config.program.images.logo
   const ministerPhoto = config.minister.photo
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
@@ -29,8 +29,8 @@ export function Header() {
       <div className="bg-neutral-800 text-neutral-100">
         <div className="container-custom h-8 px-4 md:px-6 flex items-center justify-between text-[11px]">
           <div className="flex items-center gap-2">
-            <span className="font-medium tracking-wide">Government of Odisha</span>
-            <span className="hidden sm:inline text-neutral-300">ଓଡ଼ିଶା ସରକାର</span>
+            {/* <span className="font-medium tracking-wide">Government of Odisha</span>
+            <span className="hidden sm:inline text-neutral-300">ଓଡ଼ିଶା ସରକାର</span> */}
           </div>
           <button
             type="button"
@@ -46,20 +46,20 @@ export function Header() {
         <div className="container-custom h-24 px-4 md:px-6 flex items-center justify-between gap-3">
           {/* Logo / Title */}
           <Link href="#home" className="flex items-center gap-3 min-w-0">
-            {navbarLogoUrl !== 'PLACEHOLDER_S3_URL_LOGO' && (
+            {/* {navbarLogoUrl !== 'PLACEHOLDER_S3_URL_LOGO' && (
               <img
                 src={navbarLogoUrl}
                 alt="Logo"
                 className="h-14 md:h-20 w-auto shrink-0"
               />
-            )}
+            )} */}
             <div className="leading-tight min-w-0">
               <p className="text-base md:text-2xl font-bold text-white truncate">
                 {t.header.title}
               </p>
-              <p className="text-[11px] md:text-sm font-semibold text-orange-100 truncate">
+              {/* <p className="text-[11px] md:text-sm font-semibold text-orange-100 truncate">
                 {t.header.government}
-              </p>
+              </p> */}
             </div>
           </Link>
 
