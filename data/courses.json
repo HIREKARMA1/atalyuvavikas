@@ -14,19 +14,6 @@
       "duration": 15
     },
     {
-      "id": "computer",
-      "name": {
-        "en": "Computer Classes",
-        "od": "କମ୍ପ୍ୟୁଟର କ୍ଲାସ"
-      },
-      "description": {
-        "en": "Basic computer operations, MS Office, and digital literacy",
-        "od": "ମୌଳିକ କମ୍ପ୍ୟୁଟର ପରିଚାଳନା, ଏମଏସ୍ ଅଫିସ୍, ଏବଂ ଡିଜିଟାଲ ସାକ୍ଷରତା"
-      },
-      "icon": "Monitor",
-      "duration": 15
-    },
-    {
       "id": "yoga",
       "name": {
         "en": "Yoga & Meditation",
